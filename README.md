@@ -1,13 +1,13 @@
-#use WaveView
+# use Item
 
-##Step 1. Add the JitPack repository to your build file
+## Step 1. Add the JitPack repository to your build file
 	'allprojects {
 		repositories {
 			...
 			maven { url 'https://jitpack.io' }
 		}
 	}'
-##Step 2. Add the dependency
+## Step 2. Add the dependency
 	'dependencies {
 	        compile 'com.github.dy60420667:WaveView:V1.0'
 	}'
